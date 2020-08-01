@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#394D7C"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="253dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="HAR App"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text="Current Activity:"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/ActivityTV"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textColor="#DDCE6E"
+        android:textSize="24dp"
+        android:layout_marginLeft="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sitting"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>
